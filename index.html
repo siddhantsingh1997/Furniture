@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <!----Navbar Starts From Here----->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+          <img
+            src="./setup-files-js-comfy-house-master/images/logo.svg"
+            alt="store-logo"
+            class="logo"
+          />
+        </span>
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!----Navbar Ends from here----->
+    <!----Hero---->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Furniture Collection</h1>
+        <button class="banner-btn">Shop Now</button>
+      </div>
+    </header>
+    <!----End of Hero-------->
+
+    <!----End Products----->
+    <!----Products-------->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Products</h2>
+      </div>
+      <div class="products-center">
+        <!---Single Product----->
+        <article class="product">
+          <div class="img-container">
+            <img
+              src="./setup-files-js-comfy-house-master/images/product-1.jpeg"
+              class="product-img"
+              alt="product"
+            />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>Add To Bag
+            </button>
+          </div>
+          <h3>Queen Bed</h3>
+          <h4>$16</h4>
+        </article>
+
+        <!---End Of The Single Product-->
+      </div>
+    </section>
+    <!----End Products----->
+    <!----Start Of Cart---->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+          <!----Cart Item-----
+          <div class="cart-item">
+          <img
+            src="./setup-files-js-comfy-house-master/images/product-1.jpeg"
+            alt="Product"
+          />
+
+          <div>
+            <h4>Queen Bed</h4>
+            <h5>$9.00</h5>
+            <span class="remove-item">Remove</span>
+          </div>
+          
+        
+     
+      <div>
+        <i class="fas fa-chevron-up"></i>
+        <p class="item-amount"></p>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      </div>---->
+        </div>
+        <!----End Of Cart----->
+        <div class="cart-footer">
+          <h3>Your Total :$<span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Clear Cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
